@@ -3,7 +3,7 @@ export const environment = {
   adalConfig: {
     tenant: 'my-tenant.onmicrosoft.com',
     clientId: '00000000-0000-0000-0000-000000000000',
-    postLogoutRedirectUri: 'http://localhost:4200/logout',
+    postLogoutRedirectUri: 'http://localhost:4200/',
     endpoints: {
       'https://adaltestapi.azurewebsites.net': 'https://adaltestapi.azurewebsites.net',
     },

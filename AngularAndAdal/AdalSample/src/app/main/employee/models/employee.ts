@@ -1,13 +1,11 @@
 export interface IEmployee {
-  id: number;
-  name: string;
-  function: string;
+  Id: number;
+  Title: string;
 }
 
 export class Employee implements IEmployee {
-  id: number;
-  name: string;
-  function: string;
+  Id: number;
+  Title: string;
 
   constructor(obj?: IEmployee) {
     if (obj) {
